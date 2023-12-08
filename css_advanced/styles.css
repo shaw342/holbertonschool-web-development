@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./Images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    font-family: 'Source Sans Pro';
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 35.02px 171.59px 35.02px 171.59px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-link,
+.link1,
+.link2,
+.link3 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logo-link,
+.link1,
+.link2 {
+    margin-right: 60px;
+}
+
+.main-part1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-part-title {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.main-part1 p {
+    word-spacing: 60px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-register {
+    background-color: #C271FF;
+    color: #FFFFFF;
+    width: 162px;
+    height: 44px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 1px 1px 12px #000000;
+    font-size: 14px;
+    font-weight: 550;
+    margin-top: 50px;
+}
+
+span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.pros-part h2 {
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.pros {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 220px;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4 {
+    width: 150px;
+    height: 237px;
+}
+
+.pro1,
+.pro2,
+.pro3 {
+    margin-right: 190px;
+}
+
+.pros h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 14px;
+}
+
+.pros p {
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.testimonials-section {
+    background-color: #c271ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 392px;
+    margin-top: 0px;
+}
+
+.testimonials {
+    display: flex;
+    width: 943px;
+    height: 160px;
+    font-size: 22px;
+}
+
+.testimonials img {
+    margin-right: 53px;
+}
+
+.person-name {
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.weather-presenter {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.tutorials-section {
+    color: black;
+    margin-top: 80px;
+    display: block;
+}
+
+.tutorials-section h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.tutorial1,
+.tutorial2,
+.tutorial3,
+.tutorial4 {
+    width: 255px;
+    position: relative;
+
+}
+
+.tutorial1,
+.tutorial2,
+.tutorial3 {
+    margin-right: 40px;
+}
+
+.image-smile {
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.tutorials h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tutorials p {
+    color: #071629;
+    opacity: 50.16%;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.tutorial-avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.tutorial-avatar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.tutorial-avatar h3 {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.tutorial-star {
+    display: flex;
+    text-align: end;
+}
+
+.tutorial-star img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tutorial-star p {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 550;
+    margin-left: 80px;
+}
+
+.free-membership {
+    background-color: #071629;
+    text-align: center;
+    height: 502px;
+}
+
+.free-membership h1 {
+    font-size: 32px;
+    font-weight: lighter;
+    padding-top: 65px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.member1,
+.member2,
+.member3,
+.member4 {
+    width: 257px;
+}
+
+.member1,
+.member2,
+.member3 {
+    margin-right: 50px;
+}
+
+.members h2 {
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 30px;
+}
+
+.members p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.faq-section {
+    color: #071629;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.faq-section h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.faq-row1,
+.faq-row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.faq-row1 {
+    margin-bottom: 90px;
+}
+
+.faq-row2 {
+    margin-bottom: 100px;
+}
+
+.faq-items-block1,
+.faq-items-block2 {
+    width: 350px;
+}
+
+.faq-items-block1 {
+    margin-right: 350px;
+}
+
+.faq h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.faq p {
+    color: #071629;
+    opacity: 50.16%;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #071629;
+    height: 249px;
+}
+
+.part1-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 171.59px;
+    margin-right: 350px;
+}
+
+.part1-footer img {
+    margin-top: 110px;
+}
+
+.social1,
+.social2 {
+    margin-right: 25px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    opacity: 40%;
+    margin-top: 60px;
+}
